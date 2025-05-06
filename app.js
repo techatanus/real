@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+import { Analytics } from "@vercel/analytics/react"
 
 // Set view engine
 app.set('view engine', 'ejs');
